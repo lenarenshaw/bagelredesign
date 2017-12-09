@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+h1{
+	color: black;
+	font-size: 4em;
+	line-height: 1.2;
+}
+h2,h3,h4{
+	text-align: center;
+}
+p {
+	text-align: justify;
+}
+.small {
+	margin-left: 10em;
+	margin-right: 10em;
+}
+em {
+	font-size: 1.5em;
+}
+b{
+	color: black;
+}
+.w3-center {
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+
+.w3-wide {letter-spacing: 10px;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-width: 1024px) {
+    .small {
+    	margin-left: 0em;
+		margin-right: 0em;
+    }
+}
+</style>
+<body>
+
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h1 class="w3-center">USABILITY REDESIGN</h1>
+  <p class="w3-center"><em >Beautifying and simplifying Bagel Gourmet Cafe's Website</em></p>
+  <br>
+  <h2>
+  The Problem
+  </h2>
+  <p class="small">Bagel Gourmet Cafe is a very popular estabilishment servicing the local East Providence community's bagel needs. It's family owned and operated, and has been in business forever. However, its website is currently <b>cluttered</b>, <b>unintuitive</b>, and looks like it <b>hasn't been updated</b> since the <b>mid-nineties</b>. It was in serious need of a full redesign.</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="oldhome.png" class="w3-round w3-image " alt="oldhome" width="500" height="333">
+    </div>
+
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="oldmenu.png" class="w3-round w3-image " alt="oldhome" width="500" height="333">
+    </div>
+    
+  </div>
+  <br><br>
+  <h2>
+  The Solution
+  </h2>
+<h3>Wireframes</h3>
+<p class="small">The redesign process began with creating simple <b>wireframes</b> for five key screens: the <b>home</b>, <b>menu</b>, <b>location</b>, <b>contact</b>, and <b>photo</b> pages. I reformatted the website to be continuously scrolling, so the entire website loads as one full page and the navigation bar links scroll to different parts of the page.</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-padding-large">
+      <h4>The Homepage</h4>
+      <p>I simplified the homepage by eliminating unnecessary clutter. I created a header with useful information, like address and telephone number. The navigation bar is now on the top and quite clear and easy to use, and the homepage contains a small introduciton to the cafe and an image.</p>
+    </div>
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="full.png" class="w3-round w3-image " alt="Photo of Me" width="500" height="333">
+    </div>
+  </div>
+  <br>
+  <div class="w3-row">
+<div class="w3-col m6 w3-padding-large">
+      <h4>The Menu</h4>
+      <p>On the original website, the menu page was hard to navigate beacuse it was poorly formatted and extremely long. I fixed this here by trying to condense information without making it look cluttered, and keeping everything in two columns all the way down the page. That way, it wasn't as long and seemed more organized.</p>
+    </div>
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="menu.png" class="w3-round w3-image " alt="Photo of Me" width="500" height="333">
+    </div>
+  </div>
+  <br>
+  <div class="w3-row">
+  <div class="w3-col m6 w3-padding-large">
+      <h4>The Location Page</h4>
+      <p>I kept the interactive Google Map from the original site on this new page, and simplified everything by just including key details that the user might be looking for, such as hours, address, and a nice photo of the outside of the building.</p>
+    </div>
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="location.png" class="w3-round w3-image " alt="Photo of Me" width="500" height="333">
+    </div>
+  </div>
+<br>
+  <div class="w3-row">
+  	<div class="w3-col m6 w3-padding-large">
+      <h4>The Contact Page</h4>
+      <p>The feedback form seemed useful from the old website, so I kept that (and reformatted it to be a little cleaner), and made sure to include the telephone number for direct inquiries.</p>
+    </div>
+  	<div class="w3-col m6 w3-center w3-padding-large">
+      <img src="contact.png" class="w3-round w3-image " alt="Photo of Me" width="500" height="333">
+    </div>
+  </div>
+<br>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-padding-large">
+      <h4>The Photo Gallery</h4>
+      <p>I made the photo gallery essentially full screen with buttons to navigate between photos and captions that changed when scrolling through them. Since they don't have a lot of photos, I thought a scrolling gallery would be the best way to elegantly display them.</p>
+    </div>
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="photo.png" class="w3-round w3-image " alt="Photo of Me" width="500" height="333">
+    </div>
+  </div>
+  <br>
+  <h3>High-fidelity Mockup</h3>
+<p class="small">Next, I created a  <b>high-fidelity mockup</b> of the location screen, just to demonstrate what the color pallette and layout would look like generally, and to create a template to follow for each page.</p>
+<div class="w3-row">
+    <div class="w3-col m6 w3-padding-large">
+      <h4>Finished Location Page</h4>
+      <p>The final product is simplified, clean, with light colors (from a palette) and intuitive interfaces (like the Google Map being interactive). It contains only relevant information to the location page and is easy to navigate.</p>
+    </div>
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="hifi.png" class="w3-round w3-image " alt="Photo of Me" width="500" height="333">
+    </div>
+  </div>
+  <br>
+  <h3>Feedback</h3>
+<p class="small">Any and all critiques welcomed! Please submit all feedback <a href="https://docs.google.com/forms/d/e/1FAIpQLSexQc8WH3Jd8tT6Sh5duEwYR_lYw0ime8ZxGH9jC2wWeacTUA/viewform?usp=sf_link">here</a>.</p>
+<br>
+
+</body>
+</html>
